@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youssef El Mohaddab - CV</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="bg-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+        <div class="shape shape-4"></div>
+    </div>
+
+<nav class="navbar">
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-center w-100">
+            <span class="navbar-brand fw-bold">YEM</span>
+            <div class="d-flex align-items-center gap-3">
+                <a href="#home" class="nav-link">Accueil</a>
+                <a href="#about-education" class="nav-link">Éducation</a>
+                <a href="#projets" class="nav-link">Projets</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <button class="theme-toggle" onclick="toggleTheme()">
+                    <i class="bi bi-moon-stars" id="theme-icon"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</nav>
+
+    <section class="HOME" id="home">
+        <div class="container">
+            <div class="HOME-content d-flex flex-column flex-lg-row align-items-center justify-content-between gap-4">
+                <img src="photo.jpg" alt="Youssef El Mohaddab" class="HOME-photo">
+                <div class="HOME-text text-center text-lg-start">
+                    <h1>Youssef El Mohaddab</h1>
+                    <h2>Étudiant en Informatique</h2>
+                    <p class="HOME-tagline">Passionné par la technologie et l'innovation.</p>
+                    <div class="HOME-buttons">
+                        <a href="https://www.linkedin.com/in/youssef-el-mohaddab-b03484363" class="btn-custom btn-primary-custom" onclick="downloadCV()">
+                            <i class="bi bi-linkedin me-2"></i>LinkedIn
+                        </a>
+                        <a href="#contact" class="btn-custom btn-outline-custom">
+                            <i class="bi bi-envelope me-2"></i>Me Contacter
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-education-section" id="about-education">
+        <div class="container">
+            <h2 class="section-title">Profil & Éducation</h2>
+            <div class="about-education-container">
+                <div class="col-about">
+                    <div class="card-custom">
+                        <div class="card-icon mx-auto">
+                            <i class="bi bi-person"></i>
+                        </div>
+                        <p class="about-text text-center">
+                            Étudiant motivé en première année d'Informatique, doté d'une grande adaptabilité, esprit d'équipe et solides compétences en résolution de problèmes. Passionné par l'apprentissage continu et prêt à contribuer à des projets innovants.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="col-education">
+                    <div class="timeline-item">
+                        <div class="card-custom">
+                            <h4 class="mb-2">Licence Informatique Appliquée</h4>
+                            <p class="text-secondary mb-2">
+                                <i class="bi bi-calendar me-2"></i>2024 - Présent
+                                <i class="bi bi-geo-alt ms-3 me-2"></i>FSSM Marrakech
+                            </p>
+                            <p>Développement d’une solide capacité d’analyse, de résolution de problèmes et de conception d’architectures logicielles.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="card-custom">
+                            <h4 class="mb-2">Baccalauréat Sciences Physiques</h4>
+                            <p class="text-secondary mb-2">
+                                <i class="bi bi-calendar me-2"></i>2023 - 2024
+                                <i class="bi bi-award ms-3 me-2"></i>Mention Bien
+                            </p>
+                            <p>Parcours scientifique solide incluant physique, chimie et mathématiques appliquées.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">Compétences</h2>
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <div class="card-custom">
+                        <h4 class="mb-4"><i class="bi bi-code-slash me-2"></i>Compétences Techniques</h4>
+                        <div class="skill-item">
+                            <div class="skill-label">
+                                <span>Programmation ( c , python)</span>
+                                <span>Avancé</span>
+                            </div>
+                            <div class="progress-custom">
+                                <div class="progress-bar-custom" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-label">
+                                <span>Développement web(html ,css ,js ,bootstrap...)</span>
+                                <span>Avancé</span>
+                            </div>
+                            <div class="progress-custom">
+                                <div class="progress-bar-custom" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-label">
+                                <span>Résolution de Problèmes</span>
+                                <span>Expert</span>
+                            </div>
+                            <div class="progress-custom">
+                                <div class="progress-bar-custom" data-width="95"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card-custom">
+                        <h4 class="mb-4"><i class="bi bi-translate me-2"></i>Langues</h4>
+                        <div class="skill-item">
+                            <div class="skill-label">
+                                <span>Arabe</span>
+                                <span>Natif</span>
+                            </div>
+                            <div class="progress-custom">
+                                <div class="progress-bar-custom" data-width="100"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-label">
+                                <span>Anglais</span>
+                                <span>Courant</span>
+                            </div>
+                            <div class="progress-custom">
+                                <div class="progress-bar-custom" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-label">
+                                <span>Français</span>
+                                <span>Intermédiaire</span>
+                            </div>
+                            <div class="progress-custom">
+                                <div class="progress-bar-custom" data-width="65"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="soft-skills">
+        <div class="container">
+            <h2 class="section-title">Soft Skills</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card-custom text-center">
+                        <div class="card-icon mx-auto">
+                            <i class="bi bi-lightbulb"></i>
+                        </div>
+                        <h5>Résolution de Problèmes</h5>
+                        <p class="text-secondary">Capacité à analyser et résoudre des problèmes complexes</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card-custom text-center">
+                        <div class="card-icon mx-auto">
+                            <i class="bi bi-people"></i>
+                        </div>
+                        <h5>Esprit d'Équipe</h5>
+                        <p class="text-secondary">Collaboration efficace et communication constructive</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card-custom text-center">
+                        <div class="card-icon mx-auto">
+                            <i class="bi bi-graph-up-arrow"></i>
+                        </div>
+                        <h5>Apprentissage Continu</h5>
+                        <p class="text-secondary">Passion pour l'acquisition de nouvelles connaissances</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projets" class="section">
+        <div class="container">
+            <h2 class="section-title">Mes Projets</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="project-card">
+                        <div class="project-body">
+                            <h5 class="card-title">Application To-Do Liste</h5>
+                            <p class="card-text">Une application web interactive permettant de gérer efficacement les tâches quotidiennes. Fonctionnalités incluant l'ajout, la suppression, et le marquage des tâches comme complètes. Interface intuitive et responsive.</p>
+                            <div class="project-tags">
+                                <span class="project-tag">HTML</span>
+                                <span class="project-tag">CSS</span>
+                                <span class="project-tag">JavaScript</span>
+                                <span class="project-tag">Bootstrap</span>
+                            </div>
+                            <a href="https://todo-pomodoroapp.netlify.app/" class="project-link">
+                                <span>Voir le projet</span>
+                                <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="project-card">
+                        <div class="project-body">
+                            <h5 class="card-title">Site Web Professionnel</h5>
+                            <p class="card-text">Un site web moderne et élégant conçu pour présenter des services professionnels. Design responsive avec animations fluides, navigation intuitive et optimisation pour tous les appareils. Mise en page soignée et professionnelle.</p>
+                            <div class="project-tags">
+                                <span class="project-tag">HTML</span>
+                                <span class="project-tag">CSS</span>
+                                <span class="project-tag">JavaScript</span>
+                                <span class="project-tag">Bootstrap</span>
+                            </div>
+                            <a href="#HOME" class="project-link">
+                                <span>Voir le projet</span>
+                                <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="project-card">
+                        <div class="project-body">
+                            <h5 class="card-title">Calculatrice Web</h5>
+                            <p class="card-text">Une calculatrice web fonctionnelle avec une interface utilisateur moderne et intuitive. Supporte les opérations mathématiques de base (addition, soustraction, multiplication, division) avec un design épuré et des animations interactives.</p>
+                            <div class="project-tags">
+                                <span class="project-tag">HTML</span>
+                                <span class="project-tag">CSS</span>
+                                <span class="project-tag">JavaScript</span>
+                                <span class="project-tag">Bootstrap</span>
+                            </div>
+                            <a href="https://calculator-webapp-yem.netlify.app/" class="project-link">
+                                <span>Voir le projet</span>
+                                <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card-custom contact-card">
+                        <div class="card-icon mx-auto">
+                            <i class="bi bi-telephone"></i>
+                        </div>
+                        <h5 class="mb-2">Téléphone</h5>
+                        <a href="tel:0776501966">0776501966</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card-custom contact-card">
+                        <div class="card-icon mx-auto">
+                            <i class="bi bi-envelope"></i>
+                        </div>
+                        <h5 class="mb-2">Email</h5>
+                        <a href="mailto:y.elmohaddab@gmail.com">y.elmohaddab@gmail.com</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card-custom contact-card">
+                        <div class="card-icon mx-auto">
+                            <i class="bi bi-geo-alt"></i>
+                        </div>
+                        <h5 class="mb-2">Localisation</h5>
+                        <p class="mb-0">Ben Guerir, Marrakech-Safi</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="social-icons mb-3">
+                <a href="https://www.linkedin.com/in/youssef-el-mohaddab-b03484363"><i class="bi bi-linkedin"></i></a>
+                <a href="https://github.com/youssef-elmohaddab"><i class="bi bi-github"></i></a>
+                <a href="https://x.com/YoussefElm14930"><i class="bi bi-twitter"></i></a>
+            </div>
+            <p class="mb-0">&copy; 2024 Youssef El Mohaddab. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" onclick="scrollToTop()">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
